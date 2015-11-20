@@ -1,0 +1,21 @@
+{
+  "name": "phbergsmann/if-modified-since",
+  "type": "typo3-cms-extension",
+  "description": "",
+  "homepage": "https://github.com/phbergsmann/if_modified_since",
+  "license": ["GPL-2.0+"],
+  "keywords": ["TYPO3 CMS"],
+  "require": {
+    "typo3/cms-core": ">=7.6.0,<8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhBergsmann\\IfModifiedSince\\": "Classes"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhBergsmann\\IfModifiedSince\\Tests\\": "Tests/Unit"
+    }
+  }
+}
