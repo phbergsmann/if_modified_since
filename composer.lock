@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e442928ad834459c73542990fa6fcee4",
-    "content-hash": "e12d77ea88a1add7449979bffac7239d",
+    "hash": "c8c11bf8d3e59a7e3d467adb3f701f46",
+    "content-hash": "11449d1f3fc7d9c3ef653dc7e21a4fa1",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -998,11 +998,17 @@
         },
         {
             "name": "phbergsmann/typo3-repository-client-rmt-bridge",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phbergsmann/typo3-repository-client-rmt-bridge.git",
-                "reference": "6068c8f9594fc1c531c5c3966876ab265b011357"
+                "reference": "e5d477baaf3c8b7d46c0ee8830031734b27620ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phbergsmann/typo3-repository-client-rmt-bridge/zipball/e5d477baaf3c8b7d46c0ee8830031734b27620ad",
+                "reference": "e5d477baaf3c8b7d46c0ee8830031734b27620ad",
+                "shasum": ""
             },
             "require": {
                 "liip/rmt": "1.1.x",
@@ -1014,6 +1020,7 @@
                     "PhBergsmann": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1023,7 +1030,7 @@
                     "email": "me@ph-bergsmann.com"
                 }
             ],
-            "time": "2015-11-22 16:55:46"
+            "time": "2015-11-22 17:17:38"
         },
         {
             "name": "sensiolabs/security-checker",
