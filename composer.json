@@ -6,7 +6,7 @@
   "license": ["GPL-2.0+"],
   "keywords": ["TYPO3 CMS"],
   "require": {
-    "typo3/cms-core": ">=7.6.0,<8.0"
+    "typo3/cms": ">=7.6.0,<8.0"
   },
   "autoload": {
     "psr-4": {
@@ -17,5 +17,8 @@
     "psr-4": {
       "PhBergsmann\\IfModifiedSince\\Tests\\": "Tests/Unit"
     }
+  },
+  "require-dev": {
+    "liip/rmt": "1.1.*"
   }
 }
