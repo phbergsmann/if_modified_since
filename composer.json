@@ -1,25 +1,30 @@
 {
-  "name": "phbergsmann/if-modified-since",
-  "type": "typo3-cms-extension",
-  "description": "",
-  "homepage": "https://github.com/phbergsmann/if_modified_since",
-  "license": ["GPL-2.0+"],
-  "keywords": ["TYPO3 CMS"],
-  "require": {
-    "typo3/cms": ">=7.6.0,<8.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "PhBergsmann\\IfModifiedSince\\": "Classes"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "PhBergsmann\\IfModifiedSince\\Tests\\": "Tests/Unit"
-    }
-  },
-  "require-dev": {
-    "liip/rmt": "1.1.*",
-    "phbergsmann/typo3-repository-client-rmt-bridge": "1.0.x"
-  }
+    "name": "phbergsmann/if-modified-since",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "https://github.com/phbergsmann/if_modified_since",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "keywords": [
+        "TYPO3 CMS"
+    ],
+    "require": {
+        "typo3/cms": ">=7.6.0,<8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhBergsmann\\IfModifiedSince\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhBergsmann\\IfModifiedSince\\Tests\\": "Tests/Unit"
+        }
+    },
+    "require-dev": {
+        "liip/rmt": "1.1.*",
+        "phbergsmann/typo3-repository-client-rmt-bridge": "1.0.x"
+    },
+    "version": "1.0.0"
 }
