@@ -5,7 +5,9 @@ _default:
     version-persister:
         name: vcs-tag
         tag-prefix: "{branch-name}_"
-    post-release-actions: [vcs-publish]
+    post-release-actions:
+        vcs-publish: ~
+        vendor/phbergsmann/typo3-repository-client-rmt-bridge/src/TYPO3ExtensionUploader.php: ~
 
 master:
     prerequisites: [working-copy-check, display-last-changes]
@@ -14,9 +16,7 @@ master:
             format: semantic
             file: CHANGELOG.md
             dump-commits: true
-        update-version-class:
-            class: PhBergsmann\IfModifiedSince\Version
-            pattern: const VERSION = '%version%';
+        vendor/phbergsmann/typo3-repository-client-rmt-bridge/src/TYPO3ExtensionVersioner.php: ~
         vcs-commit: ~
     version-generator: semantic
     version-persister: vcs-tag
